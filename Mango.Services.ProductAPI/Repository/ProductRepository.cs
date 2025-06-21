@@ -16,19 +16,42 @@ namespace Mango.Services.ProductAPI.Repository
                _context = context;
                _mapper = mapper;
         }
-        public Task<ProductDto> CreateUpdateProduct(ProductDto productDto)
+        public async Task<ProductDto> CreateUpdateProduct(ProductDto productDto)
         {
-            throw new NotImplementedException();
+            Product product = _mapper.Map<ProductDto, Product>(productDto);
+            if (product.ProductId>0)
+            {
+                _context.Products.Update(product);
+            }
+            else
+            {
+                _context.Products.Add(product);
+            }
+            await _context.SaveChangesAsync();
+            return _mapper.Map<Product, ProductDto>(product);
         }
 
-        public Task<bool> DeleteProduct(int productId)
+        public async Task<bool> DeleteProduct(int productId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Product product = await _context.Products.Where(x => x.ProductId == productId).FirstOrDefaultAsync();
+                if (product == null) return false;
+                
+                _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
         }
 
-        public async Task<ProductDto> GetProductById(int prodcutId)
+        public async Task<ProductDto> GetProductById(int productId)
         {
-            Product product = await _context.Products.Where(x => x.ProductId == prodcutId).FirstOrDefaultAsync();
+            Product product = await _context.Products.Where(x => x.ProductId == productId).FirstOrDefaultAsync();
             return _mapper.Map<ProductDto>(product);
         }
 
