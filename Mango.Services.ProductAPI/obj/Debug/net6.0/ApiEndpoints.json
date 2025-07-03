@@ -1,23 +1,28 @@
 [
   {
-    "ContainingType": "Mango.Services.ProductAPI.Controllers.WeatherForecastController",
+    "ContainingType": "Mango.Services.ProductAPI.Controllers.ProductAPIController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "api/products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mango.Services.ProductAPI.Controllers.ProductAPIController",
+    "Method": "GetProductById",
+    "RelativePath": "api/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Mango.Services.ProductAPI.WeatherForecast, Mango.Services.ProductAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]
