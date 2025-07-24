@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AE0wwX4j9LA=",
+  "dgSpecHash": "gHIFA/0AGTM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\IlhamBinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+  "projectFilePath": "C:\\Users\\ilhambinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ilhambinyatov\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ilhambinyatov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

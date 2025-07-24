@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IlhamBinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {}
+    "C:\\Users\\ilhambinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IlhamBinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {
+    "C:\\Users\\ilhambinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IlhamBinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ilhambinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
         "projectName": "Mango.Web",
-        "projectPath": "C:\\Users\\IlhamBinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+        "projectPath": "C:\\Users\\ilhambinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
         "packagesPath": "C:\\Users\\ilhambinyatov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IlhamBinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\obj\\",
+        "outputPath": "C:\\Users\\ilhambinyatov\\Source\\Repos\\MangoRestaurant\\Mango.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
